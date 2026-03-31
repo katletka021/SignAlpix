@@ -1,0 +1,32 @@
+{
+  "name": "signalpix-beta",
+  "version": "1.0.0",
+  "description": "SignAlpix-beta - мощный менеджер подписи IPA с поддержкой всех версий iOS 15-26.4",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building IPA via GitHub Actions...' && exit 0",
+    "release": "npm run build && git tag v1.0.0 && git push --tags",
+    "setup": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geto320/SignAlpix-beta.git"
+  },
+  "keywords": [
+    "ipa",
+    "signer",
+    "esign",
+    "altstore",
+    "ios",
+    "certificate",
+    "sideload"
+  ],
+  "author": "@geto320",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geto320/SignAlpix-beta/issues"
+  },
+  "homepage": "https://github.com/geto320/SignAlpix-beta#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
